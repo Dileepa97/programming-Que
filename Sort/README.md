@@ -1,6 +1,8 @@
 # Bubble Sort
 
-<img src="https://content.codecademy.com/courses/sorting/BubbleSort.gif" width="500px"/>
+<p align="center">
+    <img src="https://content.codecademy.com/courses/sorting/BubbleSort.gif" width="500px"/>
+</p>
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
@@ -14,9 +16,9 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 ## Complexity
 
-The time complexity of the Bubble Sort algorithm is O(n^2) in the worst and average cases, where 'n' is the number of elements in the list. The best-case time complexity is O(n) when the list is already sorted.
+The time **complexity** of the Bubble Sort algorithm is `O(n^2)` in the **worst and average cases**, where 'n' is the number of elements in the list. The **best-case** time complexity is `O(n)` when the list is already sorted.
 
-The space complexity is O(1) as it only requires a constant amount of extra memory for the swapping of elements.
+The **space complexity** is `O(1)` as it only requires a constant amount of extra memory for the swapping of elements.
 
 ## Use Cases
 
