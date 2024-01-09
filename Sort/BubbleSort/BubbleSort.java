@@ -1,4 +1,6 @@
-package Sort;
+package Sort.BubbleSort;
+
+import Sort.Sort;
 
 /**
  * BubbleSort - CTech Kitchen

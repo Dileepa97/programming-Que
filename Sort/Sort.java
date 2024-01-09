@@ -1,7 +1,7 @@
 package Sort;
 
 public class Sort {
-    static void displayArr(int arr[]) {
+    public static void displayArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ", ");
         }
