@@ -1,4 +1,5 @@
-import java.util.stream.Stream;
+package Math;
+
 import java.util.HashMap;
 import java.util.Map;
 
