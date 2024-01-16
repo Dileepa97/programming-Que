@@ -28,7 +28,7 @@ public class MinMax {
     // Using a Loop
     public static int largest(int[] arr) {
         int max = arr[0];
-        for (int i = 1; i < arr.length; i++) { // start from 1
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
             }
@@ -38,7 +38,7 @@ public class MinMax {
 
     public static int smallest(int[] arr) {
         int min = arr[0];
-        for (int i = 1; i < arr.length; i++) { // start from 1
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] < min) {
                 min = arr[i];
             }
