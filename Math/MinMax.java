@@ -1,4 +1,4 @@
-package Array;
+package Math;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
