@@ -1,7 +1,7 @@
 # Insertion Sort
 
 <p align="center">
-  <img src="https://miro.medium.com/max/1400/1*5WXRN62ddiM_Gcf4GDdCZg.gif" width="500px"/>
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*JP-wURjwf4k23U2G3GNQDw.gif" width="500px"/>
 </p>
 Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It is much less efficient on large lists than more advanced algorithms such as QuickSort, MergeSort, or HeapSort, but it performs well for small datasets or partially sorted datasets.
 
