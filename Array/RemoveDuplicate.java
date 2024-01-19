@@ -13,7 +13,10 @@ public class RemoveDuplicate {
         System.out.println(Arrays.toString(removeDuplicate(arr2)));
 
         int[] arr3 = { 1, 2, 2, 3, 4, 5, 6, 7, 7, 8 };
-        System.out.println(Arrays.toString(removeDuplicatesUsingHashSet(arr3)));
+        System.out.println(Arrays.toString(removeDuplicates(arr3)));
+
+        int[] arr4 = { 1, 2, 2, 3, 4, 5, 6, 7, 7, 8 };
+        System.out.println(Arrays.toString(removeDuplicatesUsingHashSet(arr4)));
     }
 
     // Using Loop
@@ -53,6 +56,26 @@ public class RemoveDuplicate {
         int[] uniqueArray = Arrays.copyOf(arr, len);
 
         return uniqueArray;
+    }
+
+    public static int[] removeDuplicates(int[] arr) {
+        int len = arr.length;
+        int[] result = new int[len];
+        int k = 0;
+
+        for (int i = 0; i < len; i++) {
+            boolean isDuplicate = false;
+            for (int j = i + 1; j < len; j++) {
+                if (arr[i] == arr[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if (!isDuplicate) {
+                result[k++] = arr[i];
+            }
+        }
+        return Arrays.copyOf(result, k);
     }
 
     // Using HashSet
